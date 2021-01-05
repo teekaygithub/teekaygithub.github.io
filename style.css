@@ -3,14 +3,23 @@ body {
     text-align: center;
 }
 
+#section-heading {
+    font-size: 4.2rem;
+    font-family: "Audiowide", sans-serif;
+}
+
+#projects {
+    background-color: #45567d;
+}
+
 img {
     max-width: 100%;
     height: calc(100% - 6.8rem);
-    max-height: 180px;
+    max-height: 280px;
 }
 
 #project-card {
     width: 350px;
     color: #3c78c0;
-    margin: auto;
+    height: 400px;
 }
