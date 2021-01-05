@@ -33,3 +33,38 @@ img {
     color: #3c78c0;
     height: 400px;
 }
+
+#skill-container {
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	width: 75%;
+	margin: auto;
+}
+
+#skill-container div {
+	margin: auto 20px;
+}
+
+#skill-container img {
+	max-width: 50px;
+	max-height: 50px;
+}
+
+#skill-container i {
+	font-size: 3rem;
+}
+
+footer {
+	background-color: #45567d;
+	height: 60px;
+}
+
+footer a {
+	float: right;
+	display: inline-block;
+	margin: 20px 0;
+	color: white;
+	padding: 0 1rem;
+}
