@@ -2,27 +2,36 @@ body {
     font-family: sans-serif;
     text-align: center;
 	margin: 0;
-	background-color: gray;
+	background-color: #303841;
+    color: white;
 }
 
+/* About section */
 #about {
-	background-color: #7f7f7f;
 	width: 100%;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 #about a {
 	font-size: 2.4rem;
 	margin-left: 15px;
 	margin-right: 15px;
-	color: black;
-	text-shadow: 2px 2px white;
+	color: white;
+	text-shadow: 2px 2px black;
 }
 
-#about p {
+#about-selfsummary {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#about-mystory {
 	text-align: justify;
 	overflow:visible;
 	text-overflow: clip;
+    font-size: 1.5rem;
+    margin-top: 2rem;
 }
 
 #section-heading {
@@ -30,6 +39,7 @@ body {
     font-family: "Audiowide", sans-serif;
 }
 
+/* Project section */
 #projects {
     background-color: #45567d;
 }
@@ -46,6 +56,7 @@ img {
     height: 400px;
 }
 
+/* Skill section */
 #skill-container {
 	display:flex;
 	flex-flow: row wrap;
@@ -79,10 +90,4 @@ footer a {
 	margin: 20px 0;
 	color: white;
 	padding: 0 1rem;
-}
-
-@media screen and (max-width:1000px) {
-	#about p {
-		font-size: 8px;
-	}
 }
