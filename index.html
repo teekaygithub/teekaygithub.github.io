@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="style.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Tomoyuki Kato's Portfolio</title>
     </head>
@@ -15,20 +16,54 @@
                     <li class="nav-item" >
                         <a class="nav-link" href="#skills">Skills</a>
                     </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="#about">About Tom</a>
+                    </li>
                 </ul>
             </nav>
         </header>
-        <div class="justify-content-center" id="container" style="text-align:center;">
-            <div id="banner" style="height:100vh;background-color:#7f7f7f;width:100%;">
-                <h2>Hi I'm Tom</h2>
-                <p>Full-Stack Web Developer</p>
+        <div class="justify-content-center" id="container">
+            <div id="banner" class="justify-content-center" style="height:100vh;background-color:#7f7f7f;width:100%;">
+                <div id="banner-content">
+                    <h2>Hi I'm Tom</h2>
+                    <p>Full-Stack Web Developer</p>
+                </div>
             </div>
-            <div id="projects">
-                <h2 class="my-3">My Projects</h2>
+            <div id="projects" class="container-fluid">
+                <h2 class="my-5">My Projects</h2>
+                <div class="row justify-content-center">
+                    <div class="card mx-3" id="project-card">
+                        <img src="images/tomfit.JPG" class="rounded" />
+                        <div class="card-body">
+                            <h4 class="card-title">Tomfit</h4>
+                            <p class="card-text">An exercise-tracker application</p>
+                        </div>
+                        <a href="https://tomfit.herokuapp.com" class="stretched-link" target="_blank"></a>
+                    </div>
+                    <div class="card mx-3" id="project-card">
+                        <img src="images/kneadbread.jpg" class="card-img-top rounded" alt="TK Bakery"/>
+                        <div class="card-body">
+                            <h4 class="card-title">TK Bakery</h4>
+                            <p class="card-text">E-commerce site for an online bakery</p>
+                        </div>
+                        <a href="https://tkbakery.herokuapp.com" class="stretched-link" target="_blank"></a>
+                    </div>
+                    <div class="card mx-3" id="project-card">
+                        <img src="images/tktracker.JPG" class="card-img-top rounded" alt="TK Tracker"/>
+                        <div class="card-body">
+                            <h4 class="card-title">TK Tracker</h4>
+                            <p class="card-text">An issue-tracker application for your projects</p>
+                            <a href="https://tktracker.herokuapp.com" class="btn stretched-link" target="_blank"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id="skills">
-                <h2 class="my-3">My Skill Set</h2>
+                <h2 class="my-5">My Skill Set</h2>
             </div>
+        </div>
+        <div id="about">
+            <h2 class="my-5">Hi I'm Tomoyuki Kato</h2>
         </div>
     </body>
 </html>
