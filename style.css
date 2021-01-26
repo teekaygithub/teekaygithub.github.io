@@ -52,7 +52,7 @@ img {
 #project-card {
     width: 350px;
     color: #3c78c0;
-    height: 400px;
+    min-height: 400px;
 }
 
 /* Skill section */
