@@ -53,6 +53,7 @@ body {
 #project-card-image {
     max-width: 100%;
     max-height: 280px;
+    height: calc(100%-6.8rem);
 }
 
 .card-body a {
