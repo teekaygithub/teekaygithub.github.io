@@ -43,16 +43,21 @@ body {
     background-color: #45567d;
 }
 
-img {
+#project-card {
+    max-width: 350px;
+    color: #3c78c0;
+    min-height: 400px;
+    flex: 1 0 auto;
+}
+
+#project-card-image {
     max-width: 100%;
-    height: calc(100% - 6.8rem);
     max-height: 280px;
 }
 
-#project-card {
-    width: 350px;
-    color: #3c78c0;
-    min-height: 400px;
+.card-body a {
+    margin: 0 20px;
+    display: inline-block;
 }
 
 /* Skill section */
@@ -78,6 +83,7 @@ img {
 	font-size: 3rem;
 }
 
+/* Footer section */
 footer {
 	background-color: #45567d;
 	height: 60px;
