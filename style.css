@@ -18,6 +18,7 @@ body {
 	margin-right: 15px;
 	color: white;
 	text-shadow: 2px 2px black;
+	display: inline-block;
 }
 
 #about-selfsummary {
