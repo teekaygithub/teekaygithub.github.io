@@ -78,14 +78,14 @@ nav {
 #skill-container {
 	display:flex;
 	flex-flow: row wrap;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
-	width: 75%;
+	width: 50%;
 	margin: auto;
 }
 
 #skill-container div {
-	margin: auto 20px;
+	margin: 1rem 2rem;
 }
 
 #skill-container img {
@@ -95,6 +95,10 @@ nav {
 
 #skill-container i {
 	font-size: 3rem;
+}
+
+.skill p {
+	margin-bottom: 0;
 }
 
 /* Footer section */
