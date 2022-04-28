@@ -25,10 +25,20 @@ nav {
 	display: inline-block;
 }
 
+#about-greeting {
+	margin-top: 5rem;
+	font-size: 5rem;
+}
+
 #about-selfsummary {
     margin: 20px auto;
     text-align: center;
     font-size: 2rem;
+}
+
+#about-mystory-container {
+	width: 75%;
+	margin: auto;
 }
 
 #about-mystory {
@@ -113,4 +123,32 @@ footer a {
 	margin: 20px 0;
 	color: white;
 	padding: 0 1rem;
+}
+
+@media screen and (max-width: 480px) {
+	#about-greeting {
+		font-size: 3.5rem;
+	}
+
+	#about-selfsummary {
+		font-size: 1.5rem;
+	}
+
+	#about-mystory-container {
+		width: 95%;
+	}
+
+	#skill-container {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 990px) {
+	#about-selfsummary {
+		width: 95%;
+	}
+	
+	#skill-container {
+		width: 100%;
+	}
 }
