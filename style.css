@@ -36,6 +36,10 @@ nav {
     font-size: 2rem;
 }
 
+.contact-icon {
+	margin-right: 0.6rem;
+}
+
 #about-mystory-container {
 	width: 75%;
 	margin: auto;
@@ -147,7 +151,7 @@ footer a {
 	#about-selfsummary {
 		width: 95%;
 	}
-	
+
 	#skill-container {
 		width: 100%;
 	}
