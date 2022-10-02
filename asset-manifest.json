@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/teekaygithub.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/teekaygithub.github.io/static/js/main.adbe29f6.js",
+    "index.html": "/teekaygithub.github.io/index.html",
+    "main.073c9b0a.css.map": "/teekaygithub.github.io/static/css/main.073c9b0a.css.map",
+    "main.adbe29f6.js.map": "/teekaygithub.github.io/static/js/main.adbe29f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.adbe29f6.js"
+  ]
+}
