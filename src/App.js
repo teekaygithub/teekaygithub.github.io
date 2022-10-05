@@ -1,5 +1,5 @@
 import Aboutme from './Aboutme';
-import './App.css';
+import './style.css';
 import Navbar from './Navbar';
 import Projects from './Projects';
 
