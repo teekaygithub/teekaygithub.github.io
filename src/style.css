@@ -89,6 +89,10 @@ nav {
 }
 
 /* Skill section */
+#skills {
+	color: black;
+}
+
 #skill-container {
 	display:flex;
 	flex-flow: row wrap;
@@ -107,8 +111,12 @@ nav {
 	max-height: 50px;
 }
 
-#skill-container i {
-	font-size: 3rem;
+.skillcard {
+	height: 150px;
+}
+
+.skillcard img {
+	height: 100px;
 }
 
 .skill p {

@@ -5,13 +5,13 @@ function Footer() {
         <>
             <footer>
                 <a href="https://github.com/teekaygithub" target="_blank">
-                    <i class="fab fa-github"></i>GitHub
+                    <i className="fab fa-github"></i>GitHub
                 </a>
                 <a href="https://linkedin.com/in/tomoyuki-tom-kato" target="_blank">
-                    <i class="fab fa-linkedin"></i>LinkedIn
+                    <i className="fab fa-linkedin"></i>LinkedIn
                 </a>
                 <a href="mailto:tomoyuki.kato@yahoo.com">
-                    <i class="fas fa-at"></i>Email
+                    <i className="fas fa-at"></i>Email
                 </a>
             </footer>
         </>

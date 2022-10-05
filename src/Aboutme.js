@@ -9,13 +9,13 @@ function Aboutme() {
                     contract work.</p>
                 <div>
                     <a href="https://github.com/teekaygithub" target="_blank">
-                        <i class="fab fa-github contact-icon"></i>GitHub
+                        <i className="fab fa-github contact-icon"></i>GitHub
                     </a>
                     <a href="https://linkedin.com/in/tomoyuki-tom-kato" target="_blank">
-                        <i class="fab fa-linkedin contact-icon"></i>LinkedIn
+                        <i className="fab fa-linkedin contact-icon"></i>LinkedIn
                     </a>
                     <a href="mailto:tomoyuki.kato@yahoo.com">
-                        <i class="fas fa-at contact-icon"></i>Email
+                        <i className="fas fa-at contact-icon"></i>Email
                     </a>
                 </div>
                 <div id="about-mystory-container">

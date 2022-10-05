@@ -2,6 +2,7 @@ import Aboutme from './Aboutme';
 import './style.css';
 import Navbar from './Navbar';
 import Projects from './Projects';
+import Skills from './Skills';
 import Footer from './Footer';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar></Navbar>
       <Aboutme></Aboutme>
       <Projects></Projects>
+      <Skills></Skills>
       <Footer></Footer>
     </div>
   );
