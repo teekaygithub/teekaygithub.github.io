@@ -27,8 +27,8 @@ function Skills() {
     return (
         <>
             <section id="skills" className="container-md">
-                <h2 id="section-heading" className="my-5">My Skill Set</h2>
-                <div className="row">
+                <h2 id="section-heading" className="text-white my-5">My Skill Set</h2>
+                <div className="row w-75 mx-auto">
                     {skillCards}
                 </div>
             </section>

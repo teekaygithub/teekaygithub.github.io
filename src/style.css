@@ -4,16 +4,21 @@ body {
 	margin: 0;
 	background-color: #303841;
     color: white;
+	box-sizing: border-box;
 }
 
 nav {
 	font-size: 2rem;
 }
 
+section {
+	margin: 0 auto 5rem;
+	width: 75%;
+}
+
 /* About section */
 #about {
-	width: 100%;
-	min-height: 100vh;
+	min-height: 80vh;
 }
 
 #about a {
@@ -93,30 +98,14 @@ nav {
 	color: black;
 }
 
-#skill-container {
-	display:flex;
-	flex-flow: row wrap;
-	justify-content: space-evenly;
-	align-items: center;
-	width: 50%;
-	margin: auto;
-}
-
-#skill-container div {
-	margin: 1rem 2rem;
-}
-
-#skill-container img {
-	max-width: 50px;
-	max-height: 50px;
-}
-
 .skillcard {
 	height: 150px;
 }
 
 .skillcard img {
 	height: 100px;
+	object-fit: contain;
+	padding: 5px;
 }
 
 .skill p {
