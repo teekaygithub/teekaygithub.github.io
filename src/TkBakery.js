@@ -2,7 +2,7 @@ import React from 'react';
 
 function TkBakery() {
     return (
-        <div className="card mx-3 my-3" id="project-card">
+        <div className="card project-card mx-auto my-3">
             <div id="project-card-image">
                 <img src="../kneadbread.jpg" className="card-img-top img-fluid" alt="TK Bakery" />
             </div>

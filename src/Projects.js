@@ -5,10 +5,10 @@ import TkBakery from './TkBakery';
 function Projects() {
     return (
         <>
-            <section>
-                <div className="container-fluid">
+            <section id="projects">
+                <div className="container-fluid" id="projects-container">
                     <h1 className="my-5 py-3" id="section-heading">My Projects</h1>
-                    <div className="row justify-content-center">
+                    <div className="row flex-column justify-content-center">
                         <MyKanBan></MyKanBan>
                         <TkBakery></TkBakery>
                     </div>

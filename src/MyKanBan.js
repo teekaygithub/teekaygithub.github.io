@@ -2,7 +2,7 @@ import React from 'react';
 
 function MyKanBan() {
     return (
-        <div className="card mx-3 my-3" id="project-card">
+        <div className="card project-card mx-auto my-3">
             <div id="project-card-image">
                 <img src="../mykanban.png" className="card-img-top img-fluid" />
             </div>
