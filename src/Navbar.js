@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faToolbox, faUser, faBriefcase} from '@fortawesome/free-solid-svg-icons';
+import { faToolbox, faUser, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar() {
     return (
@@ -14,18 +14,23 @@ function Navbar() {
                 <div className="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#about">    
+                            <a className="nav-link" href="#about">
                                 <FontAwesomeIcon icon={faUser}></FontAwesomeIcon> About Tom
-                            </a> 
+                            </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#projects">
-                            <FontAwesomeIcon icon={faBriefcase} /> Projects
+                                <FontAwesomeIcon icon={faBriefcase} /> Projects
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#skills">
-                            <FontAwesomeIcon icon={faToolbox}></FontAwesomeIcon> Skills
+                                <FontAwesomeIcon icon={faToolbox}></FontAwesomeIcon> Skills
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="mailto:tomoyuki.kato@yahoo.com">
+                                <div id="contact-button">Contact Me</div>
                             </a>
                         </li>
                     </ul>
