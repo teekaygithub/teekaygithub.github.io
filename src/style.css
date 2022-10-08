@@ -79,7 +79,7 @@ section {
     color: #3c78c0;
     min-height: 400px;
     flex: 1 0 auto;
-	transition: all ease-in 2s;
+	transition: opacity 2s, translate 2s;
 	animation-name: slidein;
 	animation-duration: 1s;
 	animation-timing-function: ease;
@@ -115,6 +115,15 @@ section {
 	color: #45567d;
 }
 
+.card-footer-button {
+	transition: color 0.5s, transform 0.5s;
+}
+
+.card-footer-button:hover {
+	color: rgba(33, 201, 10, 0.765);
+	transform: scale(1.1, 1.1);
+}
+
 .card-footer-button-container {
 	display: inline-block;
 }
@@ -126,6 +135,11 @@ section {
 
 .skillcard {
 	height: 150px;
+	transition: all ease 0.5s;
+}
+
+.skillcard:hover {
+	transform: scale(1.1,1.1);
 }
 
 .skillcard img {

@@ -11,13 +11,13 @@ function TkBakery() {
                 <p className="card-text">E-commerce site for an online bakery</p>
             </div>
             <div className="card-footer d-flex justify-content-around align-items-center">
-                <a href="https://ec2-54-151-82-200.us-west-1.compute.amazonaws.com:8443/" target="_blank">
+                <a className="card-footer-button" href="https://ec2-54-151-82-200.us-west-1.compute.amazonaws.com:8443/" target="_blank">
                     <div className="card-footer-container">
                         <i className="fab fa-aws fa-3x"></i>
                         <p>Website</p>
                     </div>
                 </a>
-                <a href="https://github.com/teekaygithub/tomsbakery" target="_blank">
+                <a className="card-footer-button" href="https://github.com/teekaygithub/tomsbakery" target="_blank">
                     <div className="card-footer-container">
                         <i className="fab fa-github fa-3x"></i>
                         <p>Source</p>
