@@ -60,7 +60,6 @@ section {
 }
 
 #about a {
-	font-size: 2.4rem;
 	margin-left: 15px;
 	margin-right: 15px;
 	color: white;
@@ -79,11 +78,10 @@ section {
     font-size: 2rem;
 }
 
-.contact-icon {
-	margin-right: 0.6rem;
-}
-
 #about-mystory-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	width: 75%;
 	margin: auto;
 }
@@ -91,8 +89,39 @@ section {
 #about-mystory {
 	overflow:visible;
 	text-overflow: clip;
+	text-align: left;
     font-size: 1.5rem;
-    margin-top: 2rem;
+	width: 45%;
+}
+
+#experience-container {
+	width: 45%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+.experience-icon-container {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.experience-icon-container a {
+	text-decoration: none;
+}
+
+.experience-icon-container a * {
+	transition: color 0.5s ease;
+}
+
+.experience-icon-container:hover a *{
+	color: rgba(33, 201, 10, 0.765);
+}
+
+#orst-logo {
+	width: 90px;
 }
 
 #section-heading {
@@ -213,6 +242,15 @@ footer a {
 
 	#about-mystory-container {
 		width: 95%;
+		flex-direction: column;
+	}
+
+	#about-mystory {
+		width: 90%;
+	}
+
+	#experience-container {
+		width: 90%;
 	}
 
 	#skill-container {
