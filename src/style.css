@@ -109,14 +109,14 @@ section {
     height: 280px;
 }
 
-.card-footer {
-	height: 120px;
-}
-
 .card-footer a {
     margin: 0px 10px;
     display: inline-block;
 	color: #45567d;
+}
+
+.card-footer-button-container {
+	display: inline-block;
 }
 
 /* Skill section */
