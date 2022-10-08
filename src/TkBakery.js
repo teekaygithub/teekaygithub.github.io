@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faAws, faGithub} from '@fortawesome/free-brands-svg-icons';
 
 function TkBakery() {
     return (
@@ -13,13 +15,13 @@ function TkBakery() {
             <div className="card-footer d-flex justify-content-around align-items-center">
                 <a className="card-footer-button" href="https://ec2-54-151-82-200.us-west-1.compute.amazonaws.com:8443/" target="_blank">
                     <div className="card-footer-container">
-                        <i className="fab fa-aws fa-3x"></i>
+                        <FontAwesomeIcon icon={faAws} size="3x"></FontAwesomeIcon>
                         <p>Website</p>
                     </div>
                 </a>
                 <a className="card-footer-button" href="https://github.com/teekaygithub/tomsbakery" target="_blank">
                     <div className="card-footer-container">
-                        <i className="fab fa-github fa-3x"></i>
+                        <FontAwesomeIcon icon={faGithub} size="3x"></FontAwesomeIcon>
                         <p>Source</p>
                     </div>
                 </a>
