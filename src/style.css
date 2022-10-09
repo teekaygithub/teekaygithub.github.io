@@ -132,6 +132,10 @@ section {
 	width: 90px;
 }
 
+#orst-link {
+	font-size: 1.5rem;
+}
+
 #section-heading {
     font-size: 4.2rem;
     font-family: "Audiowide", sans-serif;
@@ -229,6 +233,8 @@ footer {
 footer a {
 	float: right;
 	display: inline-block;
+	text-decoration: none;
+	transition: color 0.5s ease;
 	margin: 20px 0;
 	color: white;
 	padding: 0 1rem;
@@ -266,6 +272,14 @@ footer a {
 
 	.experience-icon-container {
 		margin-bottom: 2rem;
+	}
+
+	#orst-logo {
+		height: 130px;
+	}
+
+	#orst-link {
+		font-size: 1.3rem;
 	}
 
 	#skill-container {

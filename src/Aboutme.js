@@ -44,11 +44,11 @@ function Aboutme() {
                         <div className="experience-icon-container">
                             <img className="mx-auto mb-3" src="../robotic-arm-svgrepo-com.svg" id="orst-logo"></img>
                             <a href="https://www.adept.com/" target="_blank">
-                                <h4>Omron Robotics and Safety Technology</h4>
+                                <h4 id="orst-link">Omron Robotics and Safety Technology</h4>
                             </a>
                         </div>
                         <div className="experience-icon-container">
-                            <div>
+                            <div className="mb-2">
                                 <FontAwesomeIcon className="mr-5" icon={faChargingStation} size="3x"></FontAwesomeIcon>
                                 <FontAwesomeIcon icon={faCar} size="5x"></FontAwesomeIcon>
                             </div>
