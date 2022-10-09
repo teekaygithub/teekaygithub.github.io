@@ -6,7 +6,10 @@ function Aboutme() {
     return (
         <>
             <section id="about" className="justify-content-center">
-                <h2 id="about-greeting">Hi I'm Tom Kato</h2>
+                <div id="about-greeting">
+                    <h2>Hi I'm</h2>
+                    <h2>Tom Kato</h2>
+                </div>
                 <p className="mb-5" id="about-selfsummary">Full-stack web developer. I am currently seeking full-time work.</p>
                 <br></br>
                 <br></br>
@@ -29,7 +32,7 @@ function Aboutme() {
                         </div>
                         <div className="experience-icon-container">
                             <FontAwesomeIcon className="mb-3" icon={faSpaceShuttle} size="5x"></FontAwesomeIcon>
-                            <a href="https://www.lockheedmartin.com/en-us/index.html" target="_blank" style={{textDecoration: 'none'}}>
+                            <a href="https://www.lockheedmartin.com/en-us/index.html" target="_blank">
                                 <h4>Lockheed Martin</h4>
                             </a>
                         </div>

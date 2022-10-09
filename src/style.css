@@ -69,6 +69,9 @@ section {
 
 #about-greeting {
 	margin-top: 200px;
+}
+
+#about-greeting * {
 	font-size: 5rem;
 }
 
@@ -246,11 +249,18 @@ footer a {
 	}
 
 	#about-mystory {
+		margin: 0 auto 3rem;
 		width: 90%;
+		text-align: center;
 	}
 
 	#experience-container {
 		width: 90%;
+		margin: 0 auto;
+	}
+
+	.experience-icon-container {
+		margin-bottom: 2rem;
 	}
 
 	#skill-container {
