@@ -16,7 +16,7 @@ function Aboutme() {
                 <div id="about-mystory-container">
                     <div id="about-mystory">
                         <p>
-                            I started my career as an embedded software engineer and worked on applications ranging from industrial-arm robotics all the way to human-rated spacecrafts.
+                            I started my career as an embedded software engineer and worked on applications ranging from <a className="inline-logo" href="https://www.adept.com/" target="_blank">industrial-arm robotics</a> to <a className="inline-logo" href="https://www.lockheedmartin.com/en-us/index.html" target="_blank">human-rated spacecrafts.</a>
                         </p>
 
                         <p>
