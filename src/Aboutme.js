@@ -14,14 +14,19 @@ function Aboutme() {
                 <br></br>
                 <br></br>
                 <div id="about-mystory-container">
-                    <p id="about-mystory">I started my career as an embedded software engineer and worked on applications
-                        ranging from industrial-arm robotics all the way to human-rated spacecrafts. While I did enjoy doing the
-                        work of solving both hardware and software issues and integrating them together, I found the
-                        software work itself immensely rewarding.
-                        As an embedded software engineer I have integrated software and hardware together to solve interesting
-                        problems and to offer incredible capabilities to the end user. I believe my talent for working with
-                        multiple disciplines will carry over to my role as a full-stack developer and I will continue to solve
-                        problems and deliver great products.</p>
+                    <div id="about-mystory">
+                        <p>
+                            I started my career as an embedded software engineer and worked on applications ranging from industrial-arm robotics all the way to human-rated spacecrafts.
+                        </p>
+
+                        <p>
+                            While I did enjoy doing the work of solving both hardware and software issues and integrating them together, I found the software work itself immensely rewarding.
+                        </p>
+
+                        <p>
+                            I believe my talent for working with multiple disciplines will carry over to my role as a full-stack developer and I will continue to solve problems and deliver great products.
+                        </p>
+                    </div>
                     <div id="experience-container">
                         <div className="experience-icon-container">
                             <FontAwesomeIcon className="mb-3" icon={faSatellite} size="5x"></FontAwesomeIcon>
