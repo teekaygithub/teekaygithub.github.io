@@ -1,8 +1,8 @@
 import React from 'react';
-import MyKanBan from './MyKanBan';
-import TkBakery from './TkBakery';
+import { MyKanBan } from './MyKanBan';
+import { TkBakery } from './TkBakery';
 
-function Projects() {
+export const Projects = (): JSX.Element => {
     return (
         <>
             <section id="projects">
@@ -17,5 +17,3 @@ function Projects() {
         </>
     );
 }
-
-export default Projects;

@@ -3,7 +3,7 @@ import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faMailBulk } from '@fortawesome/free-solid-svg-icons';
 
-function Footer() {
+export const Footer = (): JSX.Element => {
     return (
         <>
             <footer>
@@ -20,5 +20,3 @@ function Footer() {
         </>
     );
 }
-
-export default Footer;

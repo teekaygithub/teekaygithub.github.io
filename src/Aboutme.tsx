@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChargingStation, faCar, faRobot, faSatellite, faSpaceShuttle } from '@fortawesome/free-solid-svg-icons';
 
-function Aboutme() {
+export const Aboutme = (): JSX.Element => {
     return (
         <>
             <section id="about" className="justify-content-center">
@@ -62,5 +62,3 @@ function Aboutme() {
         </>
     );
 }
-
-export default Aboutme;

@@ -1,8 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faAws, faGithub} from '@fortawesome/free-brands-svg-icons';
+import { faAws, faGithub } from '@fortawesome/free-brands-svg-icons';
 
-function TkBakery() {
+export const TkBakery = (): JSX.Element => {
     return (
         <div className="card project-card mx-auto my-3">
             <div id="project-card-image">
@@ -29,5 +29,3 @@ function TkBakery() {
         </div>
     );
 }
-
-export default TkBakery;

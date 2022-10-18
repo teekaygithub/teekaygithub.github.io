@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faToolbox, faUser, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
-function Navbar() {
+export const Navbar = (): JSX.Element => {
     return (
         <header>
             <nav className="navbar navbar-dark navbar-expand-sm">
@@ -39,5 +39,3 @@ function Navbar() {
         </header>
     );
 }
-
-export default Navbar;

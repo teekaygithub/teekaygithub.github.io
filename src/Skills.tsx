@@ -1,9 +1,9 @@
 import React from 'react';
-import SkillCard from './SkillCard';
+import { SkillCard } from './SkillCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faAws, faJava, faReact, faDocker, faStripe, faJs, faHtml5, faCss3} from '@fortawesome/free-brands-svg-icons';
+import { faAws, faJava, faReact, faDocker, faStripe, faJs, faHtml5, faCss3 } from '@fortawesome/free-brands-svg-icons';
 
-function Skills() {
+export const Skills = (): JSX.Element => {
     const images = new Map([
         ["Java", <h2><FontAwesomeIcon icon={faJava} size="3x"></FontAwesomeIcon></h2>],
         ["Spring", <img className="img-fluid" src="../spring-logo.jpg"></img>],
@@ -19,9 +19,9 @@ function Skills() {
         ["JUnit", <img className="img-fluid" src="../junit.png"></img>],
     ]);
 
-    let temp = [];
+    const temp: JSX.Element[] = [];
     images.forEach((k, v) => {
-        temp.push(<SkillCard image={k} text={v}></SkillCard>)
+        temp.push(<SkillCard image={k} text={v}></SkillCard>);
     });
 
     const skillCards = temp.map((item) => item)
@@ -37,5 +37,3 @@ function Skills() {
         </>
     );
 }
-
-export default Skills;
